@@ -1,0 +1,19 @@
+
+git-bash与Github操作指令
+
+下载项目：
+	1、git-bash进入指定目录(cd e:/Github_Item)
+	2、git clone --- (---表示HTTPS的URL)
+	
+	或者 download ZIP
+
+上传项目：
+	1、Github上新建项目；
+	2、git-bash进入指定目录(cd e:/Github_Item)
+	3、git init
+	4、git add --- (---表示文件名；git add . 表示全部添加)
+	5、git commit -m "commit info" (commit info 为备注信息)
+	6、第一次提交需要核对名称与邮箱
+	7、git remote add origin --- (---表示HTTPS的URL)
+	8、git push -u origin master
+	
